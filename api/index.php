@@ -52,7 +52,7 @@
       curl_setopt($ch, CURLOPT_POST, 1);  
       curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post));  
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);  
-      $result = json_decode(curl_exec($ch));  
+      $result = json_decode(curl_exec($ch),true);  
       //$json = curl_exec($ch);
       $encoded = json_encode(curl_exec($ch));
       //var_dump(json_encode(curl_exec($ch)=>data));
