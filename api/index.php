@@ -34,7 +34,7 @@
       $post = array(  
         //'apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a");  
           'apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a");  
-      $url='http://trial.intrumnet.com:81/sharedapi/worker/fields';  
+      $url='http://trial.intrumnet.com:81/sharedapi/worker/filter';  
   
       $params=array(  
                 'id'=>$_GET["id"]);    
@@ -59,8 +59,8 @@
       curl_close ($ch);  
       //var_dump($json["data"]);
       //var_dump($encoded["data"]); 
-      var_dump($result);
-      //var_dump($result["data"][$_GET["id"]]["fields"][3250]["value"]);
+      //var_dump($result);
+      var_dump($result["data"][$_GET["id"]]["fields"][3251]["value"]);
 
 
 
