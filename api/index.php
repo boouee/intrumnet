@@ -54,11 +54,11 @@
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);  
       $result = json_decode(curl_exec($ch),true);  
       //$json = curl_exec($ch);
-      $encoded = json_encode(curl_exec($ch));
+      //$encoded = json_encode(curl_exec($ch));
       //var_dump(json_encode(curl_exec($ch)=>data));
       curl_close ($ch);  
       //var_dump($json["data"]);
-      var_dump($encoded["data"]);    
+      //var_dump($encoded["data"]);    
       var_dump($result["data"][$_GET["id"]]["fields"][3250]["value"]);
 
 
