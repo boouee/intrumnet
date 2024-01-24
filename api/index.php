@@ -34,7 +34,7 @@
       $post = array(  
         //'apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a");  
           'apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a");  
-      $url='http://trial.intrumnet.com:81/sharedapi/worker/filter';  
+      $url='http://trial.intrumnet.com/sharedapi/worker/filter';  
   
       $params=array(  
                 'id'=>$_GET["id"]);    
