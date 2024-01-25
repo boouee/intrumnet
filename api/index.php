@@ -1,7 +1,7 @@
 <?php 
           
       //$url    = 'http://trial.intrumnet.com:81/sharedapi/worker/fields';  
-      echo ($_GET["id"]);
+      //echo ($_GET["id"]);
       /* $post = array(  
         //'apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a");  
           'apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a");  
