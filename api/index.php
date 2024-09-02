@@ -8,11 +8,11 @@
  */
 
 //Import PHPMailer classes into the global namespace
-//use PHPMailer;
+use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 
 require (__DIR__.'/PHPMailer.php');
-require './SMTP.php';
+require (__DIR__.'/SMTP.php');
 //Create a new PHPMailer instance
 $mail = new PHPMailer();
 
@@ -45,7 +45,7 @@ $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = 'username@gmail.com';
+$mail->Username = 'anderepostfach@gmail.com';
 
 //Password to use for SMTP authentication
 $mail->Password = 'yourpassword';
