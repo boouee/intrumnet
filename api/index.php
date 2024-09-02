@@ -11,8 +11,8 @@
 //use PHPMailer\PHPMailer\PHPMailer;
 //use PHPMailer\PHPMailer\SMTP;
 
-require 'PHPMailer.php';
-require 'SMTP.php';
+require './PHPMailer.php';
+require './SMTP.php';
 //Create a new PHPMailer instance
 $mail = new PHPMailer();
 
