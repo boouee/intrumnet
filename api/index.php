@@ -56,21 +56,21 @@ $mail->Password = 'nwxm llfi wyhh mptn';
 //Note that with gmail you can only use your account address (same as `Username`)
 //or predefined aliases that you have configured within your account.
 //Do not use user-submitted addresses in here
-$mail->setFrom('anderepostfach@gmail.com', 'First Last');
+$mail->setFrom('anderepostfach@gmail.com', '');
 
 //Set an alternative reply-to address
 //This is a good place to put user-submitted addresses
-$mail->addReplyTo('replyto@example.com', 'First Last');
+//$mail->addReplyTo('replyto@example.com', 'First Last');
 
 //Set who the message is to be sent to
-$mail->addAddress('ch.dosmatov@gmail.com', 'John Doe');
+$mail->addAddress('ch.dosmatov@gmail.com', '');
 
 //Set the subject line
 $mail->Subject = 'PHPMailer GMail SMTP test';
 
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
-$mail->msgHTML("hello");
+$mail->msgHTML("<h1>hello</h1>");
 
 //Replace the plain text body with one created manually
 $mail->AltBody = 'This is a plain-text message body';
