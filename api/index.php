@@ -13,6 +13,8 @@
 
 require (__DIR__.'/PHPMailer.php');
 require (__DIR__.'/SMTP.php');
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 //Create a new PHPMailer instance
 $mail = new PHPMailer();
 
