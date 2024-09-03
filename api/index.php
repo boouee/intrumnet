@@ -66,7 +66,7 @@ $mail->setFrom('anderepostfach@gmail.com', '');
 $mail->addAddress('ch.dosmatov@gmail.com', '');
 $mail->addAddress('lasermash36@yandex.ru', '');
 
-lasermash36@yandex.ru
+//lasermash36@yandex.ru
 //Set the subject line
 $mail->Subject = 'PHPMailer GMail SMTP test';
 
