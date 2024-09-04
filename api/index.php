@@ -68,7 +68,7 @@ $mail->addAddress('lasermash36@yandex.ru', '');
 
 //lasermash36@yandex.ru
 //Set the subject line
-$mail->Subject = 'PHPMailer GMail SMTP test';
+$mail->Subject = 'Корзина';
 
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
