@@ -35,8 +35,7 @@ header('Access-Control-Max-Age: 86400');
 if (strtolower($_SERVER['REQUEST_METHOD']) == 'options') {
     exit();
 }
-
-default_charset = "utf-8"
+//default_charset = "utf-8"
     
 $mail = new PHPMailer();
 
@@ -90,7 +89,7 @@ $mail->addAddress('lasermash36@yandex.ru', '');
 
 //lasermash36@yandex.ru
 //Set the subject line
-$mail->Subject = 'Ваша корзина';
+$mail->Subject = 'Your order list';
 
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
