@@ -3,7 +3,7 @@
 /**
  * This example shows settings to use when sending via Google's Gmail servers.
  * This uses traditional id & password authentication - look at the gmail_xoauth.phps
- * example to see how to use XOAUTH2.
+ * example to see how to use XOAUTH2.https://github.com/boouee/intrumnet/blob/main/api/index.php
  * The IMAP section shows how to save this message to the 'Sent Mail' folder using IMAP commands.
  */
 
@@ -77,7 +77,7 @@ $mail->Password = 'nwxm llfi wyhh mptn';
 //Note that with gmail you can only use your account address (same as `Username`)
 //or predefined aliases that you have configured within your account.
 //Do not use user-submitted addresses in here
-$mail->setFrom($_GET['email'], $_GET['name']);
+$mail->setFrom('anderepostfach@gmail.com', 'Part-catalogue');
 
 //Set an alternative reply-to address
 //This is a good place to put user-submitted addresses
